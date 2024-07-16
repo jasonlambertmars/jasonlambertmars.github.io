@@ -573,18 +573,6 @@ h3 {
     background-color: #EDDD5E;
 }
 
-#bandeau-accueil {
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-}
-
-#bandeau-accueil h2 {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-}
 
 /* menu */
 
@@ -624,6 +612,41 @@ h3 {
     text-shadow: 1px 0 0 currentColor;
 }
 
+/*****
+* ACCUEIL
+*****/
+
+#bandeau-accueil {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#bandeau-accueil h2 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.accueil-nuage-mots{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.accueil-nuage-mots div{
+    flex-wrap: wrap;
+}
+
+.accueil-nuage-mots div p{
+    width: 15%;
+    text-align: center;
+}
 
 /****
  * page STAGE
