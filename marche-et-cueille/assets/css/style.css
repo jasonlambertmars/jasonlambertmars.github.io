@@ -675,3 +675,17 @@ h3 {
     font-style: italic;
     font-size: 1.3rem;
 }
+
+
+/* lightbox Photo popup */
+.lb-details{
+    text-align: center !important;
+}
+
+.lb-details .lb-caption{
+    font-size: 16px;
+}
+
+.lb-details .lb-number{
+    display: none !important;
+}
