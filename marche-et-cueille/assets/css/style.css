@@ -729,6 +729,18 @@ h3 {
 
 /* a propos */
 
+#qui-suis-je h3{
+    margin-bottom: 20px;
+
+}
+
+#qui-suis-je img{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
 #les-temoignages figure{
     padding: 20px;
     border: 1px solid lightgrey;
