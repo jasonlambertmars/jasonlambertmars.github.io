@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr" id="s-inscrire">
+
+<head>
+    <meta charset="utf-8">
+    <title>S'inscrire - Marche et cueille - Petite Nature</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+  <a href="/" class="navbar-brand d-flex align-items-center">
+      <h1 class="m-0">Petite Nature</h1>
+  </a>
+  <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="/marche-et-cueille/" class="nav-item nav-link">Accueil</a>
+          <div class="nav-item dropdown">
+              <a href="/marche-et-cueille/les-stages" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Les stages</a>
+              <div class="dropdown-menu bg-light m-0">
+                  <a href="" class="dropdown-item not-clickable">Stage survie douce</a>
+                  <a href="/marche-et-cueille/stage-survie-douce-deux-jours" class="dropdown-item subitem">➥ Week-end | 2 jours</a>
+                  <a href="/marche-et-cueille/stage-survie-douce-six-jours" class="dropdown-item subitem">➥ 6 jours</a>
+                  <a href="/marche-et-cueille/stage-reconnaissance" class="dropdown-item">Stage reconnaissance des plantes, cueillette et cuisine sauvage</a>
+                  <a href="/marche-et-cueille/stage-vie-du-sol" class="dropdown-item">Stage plante bio-indicatrice et vie du sol</a>
+                  <a href="/marche-et-cueille/ateliers-hebdomadaires" class="dropdown-item">Les ateliers hebdomadaires autour des plantes sauvages (1/2 journée)</a>
+              </div>
+          </div>
+          <!--<div class="nav-item dropdown">
+            <a href="/le-stage" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Le stage</a>
+            <div class="dropdown-menu bg-light m-0">
+                <a href="/le-stage#sabriter" class="dropdown-item">S'abriter</a>
+                <a href="/le-stage#cueillir" class="dropdown-item">Cueillir</a>
+                <a href="/le-stage#faire-un-feu" class="dropdown-item">Faire un feu</a>
+                <a href="/le-stage#cuisine-sauvage" class="dropdown-item">Cuisine Sauvage</a>
+                <a href="/le-stage#le-groupe" class="dropdown-item">Le groupe</a>
+                <a href="/le-stage#legerete" class="dropdown-item">Légèreté</a>
+                <a href="/le-stage#itinerance" class="dropdown-item">Itinérance</a>
+                <a href="/le-stage#ecologie-sensible" class="dropdown-item">Écologie sensible</a>
+            </div>
+          </div>-->
+          <div class="nav-item dropdown">
+              <a href="/marche-et-cueille/s-inscrire" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">S'inscrire</a>
+              <div class="dropdown-menu bg-light m-0">
+                  <a href="/marche-et-cueille/s-inscrire#les-dates-de-stage" class="dropdown-item">Les dates de stages</a>
+                  <a href="/marche-et-cueille/s-inscrire#modalites-inscription" class="dropdown-item">Modalitées d'inscription</a>
+                  <a href="/marche-et-cueille/s-inscrire#le-materiel" class="dropdown-item">Matériel nécessaires</a>
+                  <a href="/marche-et-cueille/s-inscrire#formulaire" class="dropdown-item">Formulaire d'inscription</a>
+              </div>
+          </div>
+          <div class="nav-item dropdown">
+              <a href="/marche-et-cueille/a-propos" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">À propos</a>
+              <div class="dropdown-menu bg-light m-0">
+                  <a href="/marche-et-cueille/a-propos#qui-suis-je" class="dropdown-item">Qui-suis-je</a>
+                  <a href="/marche-et-cueille/a-propos#les-temoignages" class="dropdown-item">Témoignages de stagiaires</a>
+                  <a href="/marche-et-cueille/a-propos#portfolio" class="dropdown-item">Portfolio</a>
+              </div>
+          </div>
+          
+          <a href="/marche-et-cueille/#me-contacter" class="nav-item nav-link">Contact</a>
+      </div>
+      <div class="border-start ps-4 d-none d-lg-block">
+          <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
+      </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+    <!-- Navbar End -->
+
+
+    <div class="container-xxl py-5">
+    <div id="les-dates-de-stage" class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h2 class="mb-4">Les dates de stage</h2>
+            <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-md-8 offset-md-2 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="mb-4">Vous pouvez consulter tous les stages à venir dans le tableau ci-contre.
+                    <br>Celui-ci présente les informations essentielles telles que les dates, les lieux, et les
+                    descriptions des stages proposés.
+                    <br>Pour vous inscrire : envoyez un message via <a href="/#contact">le formulaire de contact</a>
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr class="table-dark">
+                            <th class="w-20">Stage</th>
+                            <th>Date</th>
+                            <th>Lieu</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Stage survie douce</td>
+                            <td>Du vendredi 26 avril au jeudi 2 mai</td>
+                            <td>Plateau de Millevaches en Limousin</td>
+                            <td>Départ Gare Eymoutier. Dénivelé et difficulté de la marche : faible.</td>
+                        </tr>
+                        <tr>
+                            <td>Stage survie douce</td>
+                            <td>Du mercredi 8 mai au dimanche 12 mai</td>
+                            <td>Plateau de Millevaches en Limousin</td>
+                            <td>Départ Gare Eymoutier. Dénivelé et difficulté de la marche : faible.</td>
+                        </tr>
+                        <tr>
+                            <td>Stage survie douce</td>
+                            <td>Du vendredi 31 mai au jeudi 6 juin</td>
+                            <td>Pyrénées Ariégeoises</td>
+                            <td>Départ depuis Juzet-d'Isaut à proximité de la gare de Saint-Gaudens. Dénivelé et
+                                difficulté de la marche : moyen à fort.</td>
+                        </tr>
+                        <tr>
+                            <td>Stage survie douce</td>
+                            <td>Du vendredi 15 juillet au mercredi 20 juillet</td>
+                            <td>Pyrénées Ariégeoises</td>
+                            <td>Départ depuis Juzet-d'Isaut à proximité de la gare de Saint-Gaudens. Dénivelé et
+                                difficulté de la marche : moyen à élevé.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-light">
+    <div class="container-xxl py-5">
+        <div id="modalites-inscription" class="container">
+            <div class="text-center mx-auto wow fadeInUp mb-4" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h2 class="mb-4">Les modalités d'inscription</h2>
+                <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+            </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-4"><u>Les conditions d'inscription aux stages sont présentées ci-dessous :</u></p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Avoir 18 ans</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Être en mesure de marcher plusieurs kilomètres par
+                        jour
+                        avec un sac à dos</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Avoir bien pris connaissance du contenu du stage à
+                        travers le site</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Envoyer une demande d’inscription pour un stage
+                        précis
+                        <a href="">Plus de précisions ici</a>
+                    </p>
+                </div>
+                <div class="col-md-4 ms-2 text-center">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="4" class="table-dark text-center">Tarif des stages</th>
+                            </tr>
+                            <tr class="table-active">
+                                <th>Durée</th>
+                                <th>Tarif</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>4 jours</td>
+                                <td>160 €</td>
+                            </tr>
+                            <tr>
+                                <td>6 jours</td>
+                                <td>190 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-xxl py-5">
+    <div id="le-materiel" class="container">
+        <div class="text-center mx-auto wow fadeInUp mb-4" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h2 class="mb-4">Liste de Matériels pour le stage</h2>
+            <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-10 offset-md-1 wow fadeInUp text-center" data-wow-delay="0.1s">
+                <p class="mb-4"><strong>&rarr; Les tarps (bâche de randonnée), cordages, matériels de cuisine, farines
+                        et huiles, trousses de secours seront fournis.</strong></p>
+                <p><strong>&rarr; Un temps sera pris avant le départ pour réorganiser nos sacs et se répartir le
+                        matériel commun.</strong></p>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h3>À prévoir avec vous :</h3>
+                <ul>
+                    <li>
+                        <p><strong>Un sac à dos entre 40 et 60 litres</strong> (pas trop lourd dans l'idéal, entre 1 et
+                            2 kg)</p>
+                    </li>
+                    <li>
+                        <p><strong>Un duvet adapté à la saison</strong> (cela sera précisé dans le mail, mais une
+                            température de confort située entre 0 et 5 degrés est un bon repère initial). Essayer de ne
+                            pas prendre un duvet "énorme" qui remplirait tout votre sac. On les trouve beaucoup plus
+                            légers en plume et plus chauds qu'en synthétique pour un poids équivalent. Poids entre 800 g
+                            et 1500 g.</p>
+                    </li>
+                    <li>
+                        <p><strong>Un couteau</strong> (si vous n'en avez pas, vous pouvez acheter un Opinel lame 8 en
+                            Carbone ou un couteau plus rigide pour tailler le bois).</p>
+                    </li>
+                    <li>
+                        <p><strong>Un matelas roulable / pliable en mousse léger ou gonflable</strong> si vous avez des
+                            problèmes de dos (mais c'est souvent plus fragile et plus lourd).</p>
+                    </li>
+                    <li>
+                        <p><strong>Deux gourdes de 1 litre légères en alu</strong> ou une poche à eau (qui ne communique
+                            pas le goût de plastique).</p>
+                    </li>
+                    <li>
+                        <p><strong>Brosse à dents.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>Lampe frontale</strong>, rechargée avant le départ.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h3>Pour les vêtements :</h3>
+                <ul>
+                    <li>
+                        <p><strong>Un chapeau couvrant pour le soleil.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>2 ou 3 paires de chaussettes.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>Des chaussures dans lesquelles vous êtes à l'aise avec une semelle
+                                semi-rigide.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>Un ou deux tee-shirt.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>Une polaire fine + une petite doudoune ou une seconde polaire.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>2 ou 3 sous-vêtements.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>Un short et un pantalon léger et pourquoi pas coupe-vent (pas de Jean).</strong></p>
+                    </li>
+                </ul>
+
+                <h3>Un moyen de vous abriter de la pluie :</h3>
+                <ul>
+                    <li>
+                        <p><strong>Veste pare-pluie légère + protège-sac</strong> ou un poncho qui vous englobe avec
+                            votre sac, ou un parapluie léger. (je vous présenterai un modèle de poncho qui se transforme
+                            en tarp pour abris).</p>
+                    </li>
+                </ul>
+
+                <h3>En option :</h3>
+                <ul>
+                    <li>
+                        <p><strong>Un petit appareil photo et/ou un carnet à dessein/écriture.</strong></p>
+                    </li>
+                    <li>
+                        <p><strong>Un ou deux bâtons de marche.</strong></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Form start -->
+<div class="bg-light">
+    <div class="container-xxl py-5">
+        <div id="formulaire" class="container footer py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <p class="section-title bg-white text-center text-primary px-3"></p>
+                <h2 class="mb-5">Inscrivez-vous via ce formulaire</h2>
+            </div>
+            
+  <form action="https://formspree.io/f/mkgwnwag" method="POST">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input name="name" type="text" class="form-control" id="name" placeholder="Votre NOM et Prénom" required>
+                <label for="name">Votre NOM et Prénom</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Votre Email" required>
+                <label for="email">Votre email</label>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+            <select name="objet" id="objet"  class="form-select" required="">
+            <option value="" selected="" disabled="">Selectionnez le sujet du mail</option>
+            <option value="Inscription stage court sur 2 jours">Inscription à un stage : Stage Court - 2 jours</option>
+            <option value="Inscription à un stage de 6 jours">Inscription à un stage : Stage Long - 6 jours</option>
+            <option value="Inscription à un atelier hebdomadaire">Inscription à un atelier hebdomadaire</option>
+            <option value="Demande de stage personnalisé">Demande de stage personnalisé</option>
+            <option value="Demande d'informations">Demande d'informations</option>
+            <option value="Question sur les modalités">Question sur les modalités</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="form-floating">
+                <textarea name="message" class="form-control" placeholder="Leave a message here" id="message" style="height: 250px" required></textarea>
+                <label for="message">Message</label>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button class="btn btn-secondary rounded-pill py-3 px-5" type="submit">Envoyer votre message</button>
+        </div>
+    </div>
+</form>
+            
+        </div>
+    </div>
+</div>
+<!-- Form End -->
+
+
+    
+    <!-- Footer Start
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Our Office</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Business Hours</h5>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-semi-bold" href="#">Marche et Cueille</a>, Tous droits reservés.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Site développé <a class="fw-semi-bold" href="https://htmlcodex.com">par J.L</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

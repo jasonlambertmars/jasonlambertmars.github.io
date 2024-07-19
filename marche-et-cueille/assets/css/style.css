@@ -612,6 +612,15 @@ h3 {
     text-shadow: 1px 0 0 currentColor;
 }
 
+
+/*****
+* IMAGE
+******/
+
+.grid-masonry img{
+    padding: 5px;
+}
+
 /*****
 * ACCUEIL
 *****/
@@ -644,8 +653,28 @@ h3 {
 }
 
 .accueil-nuage-mots div p{
+    font-size: .9rem;
     width: 15%;
     text-align: center;
+    font-family: "Fredericka the Great", serif;
+}
+
+.accueil-nuage-mots div p:nth-child(2n){
+    transform: rotate(-1deg);
+}
+
+.accueil-nuage-mots div p:nth-child(2n+1){
+    transform: rotate(1deg);
+}
+
+.accueil-nuage-mots div p:nth-child(4n){
+    transform: rotate(1deg);
+}
+
+@media all and (min-width:968px){
+    .accueil-nuage-mots div p{
+        font-size: 1.2rem;
+    }
 }
 
 /****
@@ -712,6 +741,7 @@ h3 {
 }
 
 
+
 /* s'inscrire */
 
 .w-20 {
@@ -725,6 +755,26 @@ h3 {
 #le-materiel h3 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
+}
+
+table tr.color-1{
+    background-color: #F8EDE3;
+}
+
+table tr.color-2{
+    background-color: #DEF9C4;
+}
+
+table tr.color-3{
+    background-color: #F8EDE3;
+}
+
+table tr.color-4{
+    background-color: #ECFFE6;
+}
+
+table tr.color-5{
+    background-color: #fafafa;
 }
 
 /* a propos */
@@ -757,6 +807,39 @@ h3 {
     font-size: 1.3rem;
 }
 
+#portfolio .portfolio-link{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: repeating-linear-gradient(
+  -45deg,
+  rgb(244, 244, 244),
+  rgb(244, 244, 244) 10px,
+  white 10px,
+  white 20px
+);
+}
+
+/****
+* Image lightbox
+****/
+
+#page-ateliers-hebdo a,
+#page-stage-plante-bio-indicatrice a,
+a.portfolio-link{
+    overflow: hidden;
+}
+
+#page-ateliers-hebdo img,
+#page-stage-plante-bio-indicatrice img,
+.portfolio-link img{
+    transition: all .2s ease;
+}
+
+#page-ateliers-hebdo img:hover,
+#page-stage-plante-bio-indicatrice img:hover,
+.portfolio-link img:hover{
+    transform: scale(1.02);
+    transition: all .4s ease;
+}
 
 /* lightbox Photo popup */
 .lb-details{
@@ -776,3 +859,4 @@ h3 {
 .form-select > option:first-child{
     display: none;
 }
+
