@@ -141,3 +141,50 @@ $(window).scroll(function () {
 });
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    var images = document.querySelectorAll('.hover-image');
+    var hoverText = document.getElementById('hover-text');
+    var currentImage = null;
+    var scrollTimeout = null;
+
+    function updateHoverTextPosition(event) {
+        if (currentImage) {
+            hoverText.style.top = (event.clientY + window.scrollY) + 'px';
+            hoverText.style.left = (event.clientX + window.scrollX) + 'px';
+        }
+    }
+
+    images.forEach(function(image) {
+        image.addEventListener('mouseover', function(event) {
+            currentImage = image;
+            hoverText.textContent = image.getAttribute('alt');
+            hoverText.style.display = 'block';
+            updateHoverTextPosition(event);
+        });
+
+        image.addEventListener('mousemove', updateHoverTextPosition);
+
+        image.addEventListener('mouseout', function() {
+            hoverText.style.display = 'none';
+            currentImage = null;
+        });
+    });
+
+    window.addEventListener('scroll', function(event) {
+        if (currentImage) {
+            hoverText.style.display = 'none';
+        }
+        if (scrollTimeout) {
+            clearTimeout(scrollTimeout);
+        }
+        scrollTimeout = setTimeout(function() {
+            if (currentImage) {
+                var rect = currentImage.getBoundingClientRect();
+                hoverText.style.top = (rect.top + window.scrollY) + 'px';
+                hoverText.style.left = (rect.left + window.scrollX) + 'px';
+                hoverText.style.display = 'block';
+            }
+        }, 100); // Temps d'attente après le défilement (100 ms)
+    });
+});

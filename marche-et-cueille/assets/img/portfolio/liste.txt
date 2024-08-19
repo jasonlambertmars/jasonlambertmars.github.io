@@ -1,0 +1,66 @@
+ Le volume dans le lecteur C n'a pas de nom.
+ Le num‚ro de s‚rie du volume est E0BD-0E78
+
+ R‚pertoire de C:\Users\Jasu\Desktop\PORT FOLIO COMPRESSE
+
+19/08/2024  19:37    <DIR>          .
+19/08/2024  19:31    <DIR>          ..
+19/08/2024  19:37                25 liste.bat
+19/08/2024  17:30         1ÿ719ÿ485 3 pr‚parations.jpg
+19/08/2024  17:30           547ÿ971 Artemisia vulgaris.jpg
+19/08/2024  17:30           450ÿ356 Baignade paolo.jpg
+19/08/2024  17:30           652ÿ029 balade cueillette en forˆt .jpg
+19/08/2024  17:30         4ÿ967ÿ350 balade en forˆt les yeux ferm‚.jpg
+19/08/2024  17:30         1ÿ572ÿ796 Cenelle d'aub‚pine.jpg
+19/08/2024  17:30         4ÿ485ÿ348 Cueillette collective.jpg
+19/08/2024  17:30         2ÿ514ÿ024 Cueillette de myrtille (2).jpg
+19/08/2024  17:30         1ÿ737ÿ964 Cueillette de pulmonaire.jpg
+19/08/2024  17:30         2ÿ181ÿ100 Cueillette d'oxalis.jpg
+19/08/2024  17:30           659ÿ808 Cueillette myrtille.jpg
+19/08/2024  17:30           713ÿ704 Cuisine de beignet de plante.jpg
+19/08/2024  17:30         2ÿ965ÿ843 Cuisine sur r‚chaud … bois .jpg
+19/08/2024  17:30         1ÿ939ÿ368 dej en foret.jpg
+19/08/2024  17:30         2ÿ887ÿ318 D‚tanisation des glands.jpg
+19/08/2024  17:30           482ÿ277 Feuille de rumex patienta.jpg
+19/08/2024  17:30           514ÿ057 Fleur de salsifie sauvage.jpg
+19/08/2024  17:30           557ÿ383 groupe survie douce.jpg
+19/08/2024  17:30         1ÿ622ÿ587 Hˆtre en hivers.jpg
+19/08/2024  17:30           327ÿ025 houlque laineuse.jpg
+19/08/2024  17:30         1ÿ466ÿ527 houmous … l'achill‚e millefeuille.jpg
+19/08/2024  17:30           309ÿ023 jeune feuille de chˆne.jpg
+19/08/2024  17:30           393ÿ472 jonquille croqu‚.jpg
+19/08/2024  17:30         1ÿ443ÿ662 Lamium maculatum.jpg
+19/08/2024  17:30           723ÿ002 marche … travers une vielle foret de hˆtre.jpg
+19/08/2024  17:30           565ÿ039 Marche en montagne .jpg
+19/08/2024  17:30           506ÿ088 Marche tomb‚ de la nuit.jpg
+19/08/2024  17:30         3ÿ566ÿ425 m‚ditation.jpg
+19/08/2024  17:30           441ÿ549 Mer de nuage au lever du jour.jpg
+19/08/2024  17:30           467ÿ199 Min‚ral.jpg
+19/08/2024  17:30         3ÿ691ÿ562 nuit pass‚ … la belle.jpg
+19/08/2024  17:30           528ÿ291 pause contemplation.jpg
+19/08/2024  17:30           635ÿ692 paysage et riviŠre en montagne.jpg
+19/08/2024  17:30         1ÿ673ÿ881 portrait.jpg
+19/08/2024  17:30         1ÿ813ÿ741 Pourtour en goutellette de l'ang‚lique  .jpg
+19/08/2024  17:30         3ÿ030ÿ628 Pr‚paration de pat‚ de glands.jpg
+19/08/2024  17:30           664ÿ769 PXL_20230831_184921154.NIGHT.jpg
+19/08/2024  17:30           451ÿ831 PXL_20240325_130207850.jpg
+19/08/2024  17:30           337ÿ933 Raphanus raphanistrum.jpg
+19/08/2024  17:30         1ÿ339ÿ074 R‚alisation d'un herbier pendant le stage.jpg
+19/08/2024  17:30         1ÿ927ÿ579 R‚cup‚ration eau de pluie.jpg
+19/08/2024  17:30           754ÿ838 Repas en forˆt.jpg
+19/08/2024  17:30         2ÿ170ÿ004 r‚veil aprŠs nuit pass‚ … la belle (2).jpg
+19/08/2024  17:30           947ÿ202 RiviŠre ombrag‚.jpg
+19/08/2024  17:30         2ÿ241ÿ685 Salade sauvage.jpg
+19/08/2024  17:30         1ÿ426ÿ916 Sauge des champs.jpg
+19/08/2024  17:30         1ÿ949ÿ236 Soupe plante sauvage.jpg
+19/08/2024  17:30           502ÿ910 Stage cuisine sauvage.jpg
+19/08/2024  17:30         3ÿ602ÿ478 Tarp aprŠs la pluie.jpg
+19/08/2024  17:30           554ÿ321 tarp.jpg
+19/08/2024  17:30           589ÿ965 Tarte g‚ante aux ortie.jpg
+19/08/2024  17:30           336ÿ000 thymus vulgaris.jpg
+19/08/2024  17:30           407ÿ567 Tige de berce.jpg
+19/08/2024  17:30           626ÿ746 toast beurre d'alliaire, tilleul et  et violette.jpg
+19/08/2024  17:30         2ÿ111ÿ369 Une plante par sac.jpg
+19/08/2024  19:37                 0 liste.txt
+              57 fichier(s)       77ÿ696ÿ022 octets
+               2 R‚p(s)  47ÿ164ÿ563ÿ456 octets libres
