@@ -557,10 +557,11 @@ h3,
     font-style: normal;
 }
 
+/*
 h1:not(.titre-accueil),
 .section-title {
     color: #404A3D !important;
-}
+}*/
 
 h2,
 .h2 {
