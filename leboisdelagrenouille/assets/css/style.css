@@ -4,8 +4,12 @@
 }
 
 @font-face {
-    font-family: MuseoTitre;
+    font-family: MuseoTitre;        
     src: url(https://jasonlambertmars.github.io/leboisdelagrenouille/assets/fonts/Museo-Titre.ttf);
+}
+
+#barre-newsletter{
+    display: none !important;
 }
 
 /********** Template CSS **********/
