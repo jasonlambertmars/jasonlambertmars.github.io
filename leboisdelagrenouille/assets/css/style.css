@@ -1,11 +1,11 @@
 @font-face {
     font-family: Museo;
-    src: url(/assets/fonts/Museo-Slab.ttf);
+    src: url(https://jasonlambertmars.github.io/leboisdelagrenouille/assets/fonts/Museo-Slab.ttf);
 }
 
 @font-face {
     font-family: MuseoTitre;
-    src: url(/assets/fonts/Museo-Titre.ttf);
+    src: url(https://jasonlambertmars.github.io/leboisdelagrenouille/assets/fonts/Museo-Titre.ttf);
 }
 
 /********** Template CSS **********/
