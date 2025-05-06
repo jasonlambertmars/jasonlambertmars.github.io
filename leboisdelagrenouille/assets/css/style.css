@@ -257,6 +257,11 @@
     left: 0;
 }
 
+#homepage .section-title::before,
+#homepage .section-title::after{
+    background: linear-gradient(90deg,rgba(91, 140, 81, 1) 0%, rgba(91, 140, 81, 1) 25%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 75%, rgba(91, 140, 81, 1) 75%, rgba(91, 140, 81, 1) 100%) !important;
+}
+
 
 /*** About ***/
 .about-experience {
