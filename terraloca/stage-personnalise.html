@@ -1,0 +1,44 @@
+---
+layout: default
+title: Stage personnalisé
+stylesheet: assets/css/flexmasonry.css
+javascript: assets/js/flexmasonry.js
+--- 
+
+<div id="page-stage-personnalise" class="container-xxl py-5">
+    <div class="container-md">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="mb-4">Stage personnalisé</h1>
+            <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+        </div>
+        <div class="row g-5 align-items-center">
+            {% for item in site.data.les-stages.stage-personnalise %}
+            <div class="col-12 col-md-7 offset-md-1 wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="h3">{{ item.titre }}</h2>
+                <p>{{ item.description }}</p>
+            </div>
+            <div class="col-8 offset-2 col-md-4 offset-md-0 col-lg-3 offset-lg-1 wow fadeInUp text-center" data-wow-delay="0.1s">
+                <div class="stage-inscription-bulle">
+                    <p>Pour avoir plus d'informations, meci de m'envoyer un message en cliquant sur ce bouton</p>
+                    <p class="fleche-bas">↓</p>
+                    <a href="/s-inscrire#formulaire-inscription" class="lien-inscription-accueil bg-secondary">Cliquez pour me contacter par mail</a>
+                </div>
+            </div>
+            <div class="col-md-10 offset-md-1 wow fadeInUp" data-wow-delay="0.1s"> 
+                <div class="grid-masonry">
+                    {% for entry in item.image %}
+                    
+                        <!--<img src="assets/img/stage-personnalise/{{ entry.titre }}" alt="{{ entry.titre }}">-->
+                        <img class="hover-image" class="img-fluid" src="https://picsum.photos/200/400" alt="{{ entry.titre }}">
+                        
+                        <img class="hover-image" class="img-fluid" src="https://picsum.photos/400/400" alt="{{ entry.titre }}">
+                    
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div id="hover-text"></div>

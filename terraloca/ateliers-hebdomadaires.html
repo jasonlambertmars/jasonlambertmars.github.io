@@ -1,0 +1,49 @@
+---
+layout: default
+title: Les Ateliers Hebdomadaires
+--- 
+
+<div id="page-ateliers-hebdo" class="container-xxl py-5">
+    <div class="container-md">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="mb-4">Ateliers Hebdomadaires</h1>
+            <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+        </div>
+        <div class="row g-2 align-items-center text-center">
+            {% for item in site.data.les-stages.ateliers-hebdomadaires %}
+            <div class="col-12 col-md-7 offset-md-1 wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="h3">{{ item.titre }}</h2>
+                <p class="info-bulle bg-primary">{{ item.nombre-personnes }}</p>
+                <p class="info-bulle bg-secondary">{{ item.prix }}</p>
+                <p class="text-start">{{ item.description }}</p>
+            </div>
+            <div class="col-8 offset-2 col-md-4 offset-md-0 col-lg-3 offset-lg-1 wow fadeInUp text-center" data-wow-delay="0.1s">
+                <div class="stage-inscription-bulle">
+                    <p>Pour vous inscrire, il vous suffit de remplir le formulaire en cliquant sur le bouton ci-dessous</p>
+                    <p class="fleche-bas">↓</p>
+                    <a href="/s-inscrire#formulaire-inscription" class="lien-inscription-accueil bg-secondary">Cliquez pour vous inscrire</a>
+                </div>
+            </div>
+                {% assign numbers = item.image | size %}
+                {% for entry in item.image %}
+            
+                {% assign modulo_3 = numbers | modulo: 3 %}
+                {% assign modulo_5 = numbers | modulo: 5 %}
+
+                {% if modulo_3 == 0 %}
+                    {% assign col_class = "col-md-4" %}
+                {% elsif modulo_5 == 0 %}
+                    {% assign col_class = "col-md-4" %}
+                {% else %}
+                    {% assign col_class = "col-md-3" %}
+                {% endif %}
+            <div class="col-6 {{ col_class }} wow fadeInUp" data-wow-delay="0.1s">
+                <a class="d-block" href="assets/img/ateliers-hebdomadaires/{{ entry.titre }}" data-lightbox="gallery" data-title="{{ entry.legende }}">
+                    <img src="assets/img/ateliers-hebdomadaires/{{ entry.titre }}" alt="{{ entry.legende }}" class="img-fluid">
+                </a>
+            </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

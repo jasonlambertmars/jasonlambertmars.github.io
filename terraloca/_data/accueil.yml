@@ -1,0 +1,72 @@
+### Titre principale accueil
+titreprincipal: TERRA LOCA est une association loi 1901<br>qui promeut l'entraide locale, sociale et écologique !
+### Mots accueil
+mots:
+  - Partage
+  - Autonomie alimentaire
+  - Marche
+  - Cuisine sauvage
+  - Convivialité
+  - Écologie sensible
+  - Philosophie
+  - Aventure
+  - Vivant
+  - Connaissance
+  - Exploration
+  - Dépassement
+
+
+#1ere section : Presentation avec 4 images.
+soustitre1: Une association loi 1901 de Corrèze
+titre1: Un espace d'acceuil ouvert à tous
+texte1: >
+        TERRA LOCALE est une association qui a pour but de :
+        <br>
+        - Promouvoir un mode de vie qui respecte la nature et le vivant
+        <br>
+        - Participer à agrader les écosystèmes en s’inspirant des concepts de permaculture, d'agriculture naturelle et d’agroécologie
+        <br>
+        - Favoriser l’alimentation saine et locale pour tous
+        <br>
+        - Valoriser les pratiques et les savoirs faire traditionnels ou/et artistiques
+        <br>
+        - Soutenir et accompagner les projets et Initiatives Rurales Écologiques Spontanées (IRES)
+        <br>
+        - Favoriser le lien social, les échanges interculturels/intergénérationnels
+        
+        
+#2eme section : les différents stages
+titre2: Découvrir les différents stages de Petite Nature
+texte2: >
+        Je vous proposes différents stages qui permettent de découvrir la survie douce dans plusieurs formats de durée différente.
+        <br>
+        Voyez ci-dessous les conditions principales pour rejoindre un stage.
+
+#3eme section : les activités
+activites:
+  - titre: Stage survie douce 6 jours
+    text: C'est avant tout un apprentissage au savoir-être en pleine nature. La durée de ce stage permet d’approfondir ses connaissances et sa pratique de l’autonomie alimentaire, de la marche, du montage d’un camp... Il vise à la (re)connexion au corps, aux autres, au vivant, dans la traversée de paysages. Il développe les capacités d'appréciation et d’adaptation à différentes situations.
+    url: /stage-survie-douce-six-jours
+  - titre: Stage survie douce 2 jours
+    text: C’est un format court, pensé pour les personnes au calendrier serré, qui souhaitent expérimenter ou développer leur autonomie en nature. Il s’adresse également aux enfants à partir de 13 ans. Ces stages sont une porte d’entrée pour vivre une relation nouvelle au  vivant.
+    url: /stage-survie-douce-deux-jours
+  - titre: Stage cuisine sauvage
+    text: De la reconnaissance des plantes sauvages à leur préparation, de la cueillette à la dégustation, ce stage s’adresse aux cuisiniers professionnels et amateurs souhaitant s’inspirer des saveurs que la nature nous offre pour élaborer une cuisine simple et  gastronomique
+    url: /stage-reconnaissance
+  - titre: Stage vie du sol et plante bio-indicatrice
+    text: >
+          Destiné aux cultivateurs, amateur ou professionnel, ce stage vise à étudier les principales fonctions et les processus de la vie du sol, ainsi que les pratiques culturales à même de mieux les accompagner.
+          <br><br>
+          Il s’appuie sur les travaux de Marc André Sélosse et sur la méthode de Gérard Ducerf, permettant de réaliser un relevé et une interprétation des plantes bio-indicatrices présentes sur la parcelle étudiée.
+    url: /stage-plante-bio-indicatrice
+  - titre: Atelier hebdomadaire
+    text: >
+          L'atelier hebdomadaire a lieu le dimanche, à Cornil en Corrèze.
+          <br><br>
+          Conçu pour partager un moment convivial autour des plantes sauvages, sa régularité permet  un apprentissage au long cours.
+    url: /ateliers-hebdomadaires
+  - titre: Stage personnalisé
+    text: Vous habitez loin de la Corrèze, et aimeriez co-organiser un stage personnalisé dans votre contrée ? C’est ici !
+    url: /stage-personnalise
+
+

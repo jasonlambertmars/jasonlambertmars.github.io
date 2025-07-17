@@ -1,0 +1,40 @@
+
+  <form action="https://formspree.io/f/mkgwnwag" method="POST">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input name="name" type="text" class="form-control" id="name" placeholder="Votre NOM et Prénom" required>
+                <label for="name">Votre NOM et Prénom</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Votre Email" required>
+                <label for="email">Votre email</label>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+            <select name="objet" id="objet"  class="form-select" required="">
+            <option value="" selected="" disabled="">Selectionnez le sujet du mail</option>
+            <option value="Inscription stage court sur 2 jours">Inscription à un stage : Stage Court - 2 jours</option>
+            <option value="Inscription à un stage de 6 jours">Inscription à un stage : Stage Long - 6 jours</option>
+            <option value="Inscription à un atelier hebdomadaire">Inscription à un atelier hebdomadaire</option>
+            <option value="Demande de stage personnalisé">Demande de stage personnalisé</option>
+            <option value="Demande d'informations">Demande d'informations</option>
+            <option value="Question sur les modalités">Question sur les modalités</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="form-floating">
+                <textarea name="message" class="form-control" placeholder="Leave a message here" id="message" style="height: 250px" required></textarea>
+                <label for="message">Message</label>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button class="btn btn-secondary rounded-pill py-3 px-5" type="submit">Envoyer votre message</button>
+        </div>
+    </div>
+</form>

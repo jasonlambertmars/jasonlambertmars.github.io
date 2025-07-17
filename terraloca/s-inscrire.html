@@ -1,0 +1,162 @@
+---
+layout: default
+title: S'inscrire aux stages et ateliers
+---
+
+<div class="container-xxl py-5">
+    <div id="les-dates-de-stage" class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="mb-4">Les dates de stage</h1>
+            <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-md-8 offset-md-2 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="mb-4">Vous pouvez consulter tous les stages à venir dans le tableau ci-contre.
+                    <br>Celui-ci présente les informations essentielles telles que les dates, les lieux, et les
+                    descriptions des stages proposés.
+                    <br>Pour vous inscrire : envoyez un message via <a href="/s-inscrire#formulaire-inscription">le formulaire de contact.</a>
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-dark">
+                            <th class="w-20">Type de Stage</th>
+                            <th>Date</th>
+                            <th>Lieu</th>
+                            <th>Description</th>
+                            <th>Plus d'infos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Survie Deux jours -->
+                        {% for item in site.data.les-stages.survie-douce-deux-jours %}
+                        {% for entry in item.details %}
+                        <tr class="color-1">
+                            <td>Survie douce 2 jours</td>
+                            <td>{{entry.date}} - {{entry.heure}}</td>
+                            <td>{{entry.lieu}}</td>
+                            <td>{{entry.description}}</td>                            
+                            <td><a href="/{{ item.url-page }}">Voir plus d'infos</a></td>
+                        </tr>
+                        {% endfor %}
+                        {% endfor %}
+                        <!-- Survie Six jours -->
+                        {% for item in site.data.les-stages.survie-douce-six-jours %}
+                        {% for entry in item.details %}
+                        {% if entry.date != "" %}
+                        <tr class="color-2">
+                            <td>Survie douce 6 jours</td>
+                            <td>{{entry.date}}</td>
+                            <td>{{entry.lieu}}</td>
+                            <td>{{entry.description}}</td>                            
+                            <td><a href="/{{ item.url-page }}">Voir plus d'infos</a></td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                        <!-- Stage reconnaissance  -->
+                        {% for item in site.data.les-stages.stage-reconnaissance %}
+                        {% for entry in item.details %}
+                        {% if entry.date != "" %}
+                        <tr class="color-3">
+                            <td>Stage reconnaissance des plantes</td>
+                            <td>{{entry.date}}</td>
+                            <td>{{entry.lieu}}</td>
+                            <td>{{entry.description}}</td>                            
+                            <td><a href="/{{ item.url-page }}">Voir plus d'infos</a></td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                        <!-- Stage plantes bio indicatrices  -->
+                        {% for item in site.data.les-stages.stage-plante-bio-indicatrice %}
+                        {% for entry in item.details %}
+                        {% if entry.date != "" %}
+                        <tr class="color-4">
+                            <td>Stage reconnaissance des plantes</td>
+                            <td>{{entry.date}}</td>
+                            <td>{{entry.lieu}}</td>
+                            <td>{{entry.description}}</td>                            
+                            <td><a href="/{{ item.url-page }}">Voir plus d'infos</a></td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                        <tr class="color-5">
+                            <td>Atelier Hebdomadaire</td>
+                            <td>Les Samedis & Dimanches</td>
+                            <td>Cornil - le battement d'aile</td>
+                            <td>Cueillette, cuisine, etc</td>                            
+                            <td><a href="/ateliers-hebdomadaires">Voir plus d'infos</a></td>
+                        </tr>
+                    </tbody>>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="bg-light">
+    <div class="container-xxl py-5">
+        <div id="modalites-inscription" class="container">
+            <div class="text-center mx-auto wow fadeInUp mb-4" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h2 class="mb-4">Les modalités d'inscription</h2>
+                <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+            </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-4"><u>Les conditions d'inscription aux stages sont présentées ci-dessous :</u></p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Avoir 18 ans</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Être en mesure de marcher plusieurs kilomètres par
+                        jour
+                        avec un sac à dos</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Avoir bien pris connaissance du contenu du stage à
+                        travers le site</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Envoyer une demande d’inscription pour un stage
+                        précis
+                        <a href="">Plus de précisions ici</a>
+                    </p>
+                </div>
+                <div class="col-md-4 ms-2 text-center">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="4" class="table-dark text-center">Tarif des stages</th>
+                            </tr>
+                            <tr class="table-active">
+                                <th>Durée</th>
+                                <th>Tarif</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>4 jours</td>
+                                <td>160 €</td>
+                            </tr>
+                            <tr>
+                                <td>6 jours</td>
+                                <td>190 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<!-- Form start -->
+<div class="bg-light">
+    <div class="container-xxl py-5">
+        <div id="formulaire-inscription" class="container footer py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <p class="section-title bg-white text-center text-primary px-3"></p>
+                <h2 class="mb-5">Inscrivez-vous via ce formulaire</h2>
+            </div>
+            {% include contact.html %}
+            
+        </div>
+    </div>
+</div>
+<!-- Form End -->

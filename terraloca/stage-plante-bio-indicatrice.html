@@ -1,0 +1,41 @@
+---
+layout: default
+title: Stage sur les plantes bio-indicatrices et sur la vie du sol
+--- 
+
+<div id="page-stage-plante-bio-indicatrice" class="container-xxl py-5">
+    <div class="container-md">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="mb-4">Stage plante bio-indicatrice et vie du sol</h1>
+            <p class="section-title bg-white text-center text-primary px-3 mb-4"></p>
+        </div>
+        <div class="row g-2 align-items-center text-center">
+            {% for item in site.data.les-stages.stage-bio-indicatrice %}
+            <div class="col-12 col-md-7 offset-md-1 wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="h3">{{ item.titre }}</h2>
+                <p class="info-bulle bg-primary">{{ item.nombre-personnes }}</p>
+                <p class="info-bulle bg-secondary">{{ item.prix }}</p>
+                <p class="text-start">{{ item.description }}</p>
+            </div>
+            <div class="col-8 offset-2 col-md-4 offset-md-0 col-lg-3 offset-lg-1 wow fadeInUp text-center" data-wow-delay="0.1s">
+                <div class="stage-inscription-bulle">
+                    <p>Pour vous inscrire, il vous suffit de remplir le formulaire en cliquant sur le bouton ci-dessous</p>
+                    <p class="fleche-bas">↓</p>
+                    <a href="/s-inscrire#formulaire-inscription" class="lien-inscription-accueil bg-secondary">Cliquez pour vous inscrire</a>
+                </div>
+            </div>
+        </div>
+                
+        <div class="row g-2 justify-content-center">
+            {% for entry in item.image %}
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                <a class="d-block" href="assets/img/plantes-bio-indicatrices/{{ entry.titre }}" data-lightbox="gallery" data-title="{{ entry.legende }}">
+                    <img src="assets/img/plantes-bio-indicatrices/{{ entry.titre }}" alt="{{ entry.legende }}" class="img-fluid">
+                </a>
+            </div>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

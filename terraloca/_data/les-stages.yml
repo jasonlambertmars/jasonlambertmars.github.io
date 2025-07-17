@@ -1,0 +1,219 @@
+#
+# STAGE SURVIE DOUCE 2 JOURS
+#
+survie-douce-deux-jours:
+  - url-page: stage-survie-douce-deux-jours
+    titre: Stage court - 2 nuits
+    soustitre: Survie Douce sur le Week-End ou 2 jours
+    nombre-personnes: 8 personnes maximum
+    prix: Prix libre 
+    description: >
+                  <b>Où ?</b> A Cornil, en Corrèze, entre Tulle et Brive la Gaillarde
+                  <br><br>
+                  Les stages courts débutent le vendredi après-midi et se terminent le dimanche en début de soirée.
+                  Ils demandent moins d’engagement que les stages longs, tout en partageant la même philosophie : équipement minimaliste, marche, apprentissage du montage d’un camp, reconnaissance, cueillette et cuisine des plantes sauvages, partage en groupe, nuit en extérieur.
+                  Chaque stage est différent en fonction du groupe, de la météo, du territoire, des plantes rencontrées...
+                  À travers l’immersion en milieu naturel, ces stages courts sont une porte d’entrée pour vivre une relation nouvelle au vivant.
+                  <br><br>
+                  Vous habitez loin de la Corrèze et souhaitez proposer ce stage sur votre territoire, contactez-moi via <a href="#me-contacter">ce formulaire</a>.
+                  <br><br>
+                  <i>Le contenu de ce stage plus en détail ci-dessous !</i>
+    details:
+      - date: "Du 12 juin 2024 au 14 juin 2024"
+        lieu: Le Battement d'ailes - Cornil (19)
+        heure: "De 14 à 17h"
+        description: "Cueillette, cuisine, etc"
+      - date: "Du 20 juillet 2024 au 22 juillet 2024"
+        lieu: Le Battement d'ailes - Cornil (19)
+        heure: "De 14 à 17h"
+        description: "Cueillette, cuisine, etc"
+
+#
+# STAGE SURVIE DOUCE 6 JOURS
+#
+survie-douce-six-jours:
+  - url-page: stage-survie-douce-six-jours
+    titre: Survie Douce sur 6 jours
+    nombre-personnes: 6 personnes maximum
+    prix: "Prix : 200 €*"
+    info-prix: "* Possiblité de prix réduit pour les petits budgets"
+    description: >
+                 Cette proposition est au plus près de ma philosophie du voyage en nature. Elle réunit collectif, itinérance et autonomie. Elle vise à transmettre des savoirs et techniques de vie en nature tout en réalisant une traversée poétique.
+                 <br><br>
+                 Ensemble, nous cheminerons à l’écoute de territoires méconnus.
+                 <br><br>
+                 On s’y fond, on s’y endort, s’y réveille chaque matin dans une lumière nouvelle.
+                 Nous parcourerons les plaines et les montagnes, souvent en silence, en s’arrêtant autant que nécessaire pour ramasser le bois et puiser l’eau, contempler, observer les plantes, commencer à les comprendre.
+                 En cueillir certaines, les cuisiner et prendre conscience de l’énergie vitale qu’elles nous apportent quand nos forces s’amenuisent.
+                 Les paysages défilant, nos pas se précisent et se délestent de nos préoccupations habituelles qui se font moins entendre, notre présence gagne du terrain. Le soir, les échanges aident chacun à avancer, à mieux cerner ses propres besoins, ses manques et ses stratégies pour mieux les combler.
+                 <br><br>
+                 <i>Le contenu de ce stage plus en détail ci-dessous !</i>
+    details:
+      - date: "Du 12 juin 2024 au 14 juin 2024"
+        lieu: "Foret de Blanchefort"
+        description: "Départ Gare Eymoutier. Dénivelé et difficulté de la marche : faible."
+      - date: "Du 20 juillet 2024 au 22 juillet 2024"
+        lieu: "Lieu inconnu"
+        description: "Départ depuis Juzet-d'Isaut à proximité de la gare de Saint-Gaudens.
+                      <br>Dénivelé et difficulté de la marche : moyen à fort."
+      - date: "Du 12 juin 2024 au 14 juin 2024"
+        lieu: "Foret de Broceliande"
+        description: "Départ Gare Eymoutier. Dénivelé et difficulté de la marche : faible."
+    
+
+#
+# STAGE PLANTE BIO INDICATRICE
+#
+stage-bio-indicatrice:
+  - url-page: stage-plante-bio-indicatrice
+    titre: "Découvrez le monde des plantes bio-indicatrices et de la vie du sol"
+    nombre-personnes: 8 personnes maximum
+    prix: Prix libre et conscient
+    description: >
+                  Ce stage est une plongée dans les mécanismes discrets et souvent occultes des processus qui orchestrent la vie du sol.
+                  Il a pour objectif de nous faire prendre conscience de nos pratiques culturales et de leurs impacts sur la vie du sol.
+                  De nombreuse réflexions et outils concrets seront proposés pour orienter nos pratiques vers une plus grande adéquation au processus qui façonne le vivant.
+                  <br><br>
+                  <b>Une première partie sera consacrée à appréhender et comprendre le fonctionnement des sols :</b>
+                  <br>
+                  <ul>
+                  <li>La naissance des sols (pédogenèse). Observation concrète des processus à l’œuvre à travers la colonisation du minéral par la succession et la facilitation écologique.</li>
+                  <li>La fraction solide et physique du sol (matière minérale/organique, leurs rôles et fonctions).</li>
+                  <li>Les processus biologiques à l’œuvre (Ecosystème, vie microbienne et macroscopique, transformation de la matière, de l’inerte au vivant).</li>
+                  <li>Les processus chimiques (éléments de la fertilité des sols, processus de conservation et risques d’érosion de ces éléments).</li>
+                  <li>Les processus de régénération des sols (naturel et accompagné).</li>
+                  <li>Questions/réponses autour de la thématique.</li>
+                  </ul>
+                  <br>
+                  <p class="text-start"><b>Une seconde partie sera consacrée à l’étude des plantes bio indicatrices :</b></p>
+                  <br>
+                  <ul>
+                  <li>Considérations générales sur les plantes bio-indicatrices.</li>
+                  <li>Présentation de la méthode de Gérard Ducerf.</li>
+                  <li>Cas concret : relevé de plantes et interprétation de la parcelle étudiée.</li>
+                  <li>Proposition et réflexion collective autour des méthodes culturales à envisager.</li>
+                  <li>Avantage et limite de la méthode.</li>
+                  <li>Méthode complémentaire d’analyse du sol.</li>
+                  </ul>
+    details:
+      - date: "12 juin 2024"
+        lieu: "Cornil"
+        description: "Découverte environnement permacole."
+      - date: "Du 20 juillet 2024 au 22 juillet 2024"
+        lieu: "Lieu inconnu"
+        description: "Départ depuis Juzet-d'Isaut à proximité de la gare de Saint-Gaudens.
+                      <br>Dénivelé et difficulté de la marche : moyen à fort."
+      - date: ""
+        lieu: ""
+        description: ""
+    image: 
+      - titre: bio-indicatrice1.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice2.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice3.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice4.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice5.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice6.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice7.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice8.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice9.jpg
+        legende: Nom photo xx
+      - titre: bio-indicatrice10.jpg
+        legende: Nom photo xx
+
+#
+# STAGE DE RECONNAISSANCE
+#
+stage-reconnaissance:
+  - url-page: stage-reconnaissance
+    titre: "Apprenez à reconnaitre les plantes, Cueillez, Cuisinez !"
+    nombre-personnes: 8 personnes maximum
+    prix: Prix libre et conscient
+    description: >
+                  Ces stages se proposent d’apprendre à incorporer les plantes sauvages en cuisine, que l’on soit professionnel ou amateur.
+                  <br><br>
+                  Selon la saison, différentes plantes seront cueillies et étudiées : quel est leur milieu de vie, leur caractéristiques botaniques, la période de récolte, les parties consommables, leur composition nutritionnelle ?
+                  <br>
+                  Nous aborderons également les risques parasitaires liés à la cueillette et les astuces pour les éviter.
+                  Nous identifierons les composés chimiques présents dans les plantes qui comportent une certaine toxicité et nous apprendrons à les éliminer en partie.
+                  <br><br>
+                  Pour chacune d’entre elle, on déclinera leurs qualités culinaires : certaines seront utilisées comme ingrédient de base, et pour d’autres, aux saveurs fortes ou originales, comme apport condimentaires.
+                  <br>
+                  Nous aborderons différentes méthodes de conservation et recettes.
+                  Pour certaines recettes, nous utiliserons essentiellement des plantes sauvages, pour d’autres nous les combinerons à des recettes traditionnelles pour concocter une cuisine à la fois simple et savoureuse.
+    image: 
+      - titre: atelier-hebdo1.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo2.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo3.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo4.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo5.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo6.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo7.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo8.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo9.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo10.jpg
+        legende: Nom photo xx
+
+#
+# ATELIERS HEBDOMADAIRES
+#
+ateliers-hebdomadaires:
+  - url-page: ateliers-hebdomadaires
+    titre: "CHAQUE DIMANCHE AU BATTEMENTS D’AILES (Cornil, Corrèze) de 10 h à 13h30"
+    nombre-personnes: Inscription obligatoire
+    prix: Prix libre et conscient
+    description: >
+                   L’atelier hebdomadaire est l’occasion d’un partage régulier autour des plantes sauvages en permettant un apprentissage sur la durée.
+                   <br><br>
+                   C’est un atelier convivial qui mêle pratique (balade, cueillette et cuisine des plantes) et théorique (reconnaissance, botanique, milieu de vie, vertu médicinale et alimentaire).
+                   <br><br>
+                   A chaque atelier, nous nous focaliserons sur une plante pour en étudier plus précisément ses caractéristiques en faisant fonctionner tous nos sens pour apprendre à mieux la connaitre.
+                   Le repas se préparera avec notre cueillette du jour.
+                   <br>
+                   D’une semaine à l’autre, nous observons la transformation de ces plantes, pour mieux appréhender leur métamorphose, de leur émergence à leur fructification.
+    image: 
+      - titre: atelier-hebdo1.jpg
+        legende: Photo bis
+      - titre: atelier-hebdo2.jpg
+        legende: Nom photo xx
+      - titre: atelier-hebdo3.jpg
+        legende: Nom photo xx
+        
+#
+# STAGE PERSONNALISE
+#
+stage-personnalise:
+  - url-page: stage-personnalise
+    titre: Stage personnalisé
+    description: >
+                  Vous souhaitez organiser un stage ou une intervention ?
+                  <br>
+                  Un atelier de cuisine sauvage au sein d’une école, un stage de survie douce près de chez vous ou encore proposer une session autour des plantes bio indicatrices dans votre association ?
+                  <br>
+                  Vous pouvez me faire part de votre projet via <a href="#me-contacter">ce formulaire</a>.
+    image: 
+      - titre: stage-perso1.jpg
+      - titre: stage-perso2.jpg
+      - titre: stage-perso3.jpg
+      - titre: stage-perso4.jpg
+      - titre: stage-perso5.jpg
+      - titre: stage-perso6.jpg 
+    prix:
+      - type: "Normal"
+        montant: 200
