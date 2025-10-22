@@ -1036,6 +1036,15 @@ Bois de la grenouille
     font-family: 'MuseoTitre';
 }
 
+#video-accueil{
+  width: 100%;        /* S’adapte à la largeur du col */
+  height: auto;       /* Conserve le ratio */
+  max-width: 100%;    /* Empêche tout débordement */
+  display: block;     /* Supprime l’espace inline */
+  border-radius: 10px; /* Optionnel : angles arrondis */
+  object-fit: cover;  /* Garde un beau cadrage */
+}
+
 
 /* page produit */
 
