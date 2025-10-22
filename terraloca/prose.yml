@@ -1,0 +1,40 @@
+prose:
+  rooturl: "/"
+  siteurl: "https://tonsite.fr"
+  media: "assets/images/posts"
+
+  metadata:
+    "_posts":
+      - name: "title"
+        field:
+          label: "Titre de l'article"
+          element: "text"
+          placeholder: "Titre descriptif"
+
+      - name: "date"
+        field:
+          label: "Date de publication"
+          element: "text"
+          placeholder: "YYYY-MM-DD HH:MM:SS"
+          value: CURRENT_DATETIME
+
+      - name: "category"
+        field:
+          label: "Catégorie"
+          element: "select"
+          options:
+            - fruits
+            - techniques
+            - événements
+            - divers
+
+      - name: "image"
+        field:
+          label: "Image principale"
+          element: "text"
+          placeholder: "/assets/images/posts/monimage.jpg"
+
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
