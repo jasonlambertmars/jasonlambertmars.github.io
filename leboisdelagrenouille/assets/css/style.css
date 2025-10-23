@@ -230,7 +230,7 @@
     content: "";
     width: calc(100% + 80px);
     height: 2px;
-    top: 0px;
+    top: 3px;
     left: -40px;
     background: var(--primary);
     z-index: -1;
@@ -241,7 +241,7 @@
     content: "";
     width: calc(100% + 120px);
     height: 2px;
-    bottom: 0px;
+    bottom: 6px;
     left: -60px;
     background: var(--primary);
     z-index: -1;

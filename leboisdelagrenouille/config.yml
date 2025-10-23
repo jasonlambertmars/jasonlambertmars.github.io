@@ -1,0 +1,54 @@
+url:  
+baseurl:
+
+# Site settings
+title: Le bois de la grenouille
+email: leboisdelagrenouille@
+description: "Le site du bois de la grenouille"
+
+
+prose:
+  rooturl: ''
+  siteurl: 'https://jasonlambertmars.github.io/leboisdelagrenouille/'
+  media: 'img/posts'
+  metadata:
+    _posts:
+      - name: "sur-titre"
+        field:
+          label: "Sur-titre du produit"
+          element: "text"
+          placeholder: "Sur-titre qui apparait au-dessus du produit"
+      - name: "titre"
+        field:
+          label: "Nom du produit"
+          element: "text"
+          placeholder: "Nom du produit"
+      - name: "prix"
+        field:
+          label: "Text"
+          element: "text"
+          placeholder: "Entrer le prix"
+      - name: "category"
+        field:
+          label: "Catégorie"
+          element: "select"
+          options:
+            - Jeux
+            - Objets déco
+            - Grands jeux en bois
+            - Panneaux sculptés
+            - Projet personnalisé
+      - name: "excerpt"
+        field:
+          label: "Text"
+          element: "text"
+          placeholder: "Entrer un texte résumé (1 phrase ou 2)"
+      - name: "description"
+        field:
+          label: "Text"
+          element: "textarea"
+          placeholder: "Entrer la descrition complete"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
