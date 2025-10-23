@@ -11,34 +11,23 @@ title: Galerie Photos du Bois de la Grenouille
 <!-- Gallery Start -->
 <div class="container-xxl py-5">
   <div class="container">
-    <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-      <p class="section-title bg-white text-center text-primary px-3">📸</p>
-      <h1 class="mb-5">La galerie photos du bois de la grenouille !</h1>
-    </div>
+      <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+          <p class="section-title bg-white text-center text-primary px-3">📸</p>
+          <h1 class="mb-5">La galerie photos du bois de la grenouille !</h1>
+      </div>
 
-    <div class="row g-0">
       <div class="gallery-grid">
-  {% for img in site.static_files %}
-    {% if img.path contains 'assets/img/galerie' and (img.extname == '.jpg' or img.extname == '.png') %}
-      {% assign mod = forloop.index0 | modulo: 3 %}
-      {% if mod == 0 %}
-        {% assign size = "tall" %}
-      {% elsif mod == 1 %}
-        {% assign size = "medium" %}
-      {% else %}
-        {% assign size = "short" %}
-      {% endif %}
-      <a href="{{ img.path }}" data-lightbox="gallery" class="wow fadeInUp {{ size }}">
-        <img src="{{ img.path }}" alt="">
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
-    </div>
+        {% for img in site.static_files %}
+          {% if img.path contains 'assets/img/galerie' and (img.extname == '.jpg' or img.extname == '.png') %}
+            <a href="{{ img.path }}" data-lightbox="gallery" class="wow fadeInUp">
+              <img src="{{ img.path }}" alt="">
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
   </div>
 </div>
 <!-- Gallery End -->
-
 
     
     <!-- Footer Start
