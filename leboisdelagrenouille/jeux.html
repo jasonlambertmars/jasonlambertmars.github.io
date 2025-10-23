@@ -3,24 +3,6 @@ layout: default
 title: Les jeux en bois du bois de la grenouille
 ---
 
-<!-- DEBUG START - supprimer après tests -->
-<h3>DEBUG JEKYLL</h3>
-<p><strong>site.posts count:</strong> {{ site.posts | size }}</p>
-<ul>
-{% for p in site.posts %}
-  <li>{{ p.path }} — titre: "{{ p.title | default: p.titre | default: '—' }}" — categorie: "{{ p.categorie | default: '—' }}" — date: {{ p.date }}</li>
-{% endfor %}
-</ul>
-
-<p><strong>site.jeux (collection) count:</strong> {{ site.jeux | size }}</p>
-<ul>
-{% for p in site.jeux %}
-  <li>{{ p.path }} — titre: "{{ p.title | default: p.titre | default: '—' }}" — categorie: "{{ p.categorie | default: '—' }}"</li>
-{% endfor %}
-</ul>
-<!-- DEBUG END -->
-
-
 <!-- Produits - Jeux -->
 <div class="container-fluid py-3">
   <div class="colonne_produit">
@@ -38,10 +20,10 @@ title: Les jeux en bois du bois de la grenouille
             {% assign img = produit.content | split: 'src="' | last | split: '"' | first %}
             {% if img contains '.jpg' or img contains '.png' %}
               <a class="text-center"
-                href="{{ img }}"
+                href="assets/{{ img }}"
                 data-lightbox="{{ lightbox_id }}"
                 data-title='Image agrandie de "{{ produit.titre }}"'>
-                <img src="{{ img }}" alt="Image du produit {{ produit.titre }}">
+                <img src="assets/{{ img }}" alt="Image du produit {{ produit.titre }}">
               </a>
             {% endif %}
 
