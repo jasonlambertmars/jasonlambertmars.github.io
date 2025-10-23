@@ -944,6 +944,10 @@ a.portfolio-link{
     padding-top: 7px;
 }
 
+.dropdown-menu{
+    padding-bottom: 0;
+}
+
 /* barre haute newsletter brevo */
 
 #barre-newsletter{
