@@ -11,82 +11,31 @@ title: Galerie Photos du Bois de la Grenouille
           <h1 class="mb-5">La galerie photos du bois de la grenouille !</h1>
       </div>
       <div class="row g-0">
-            {% assign galerie = site.static_files | where_exp: "file", "file.path contains 'assets/img/galerie/'" %}
-{% assign columns = galerie | each_slice: 2 %}
+  {% assign images = site.static_files | where_exp: "file", "file.path contains 'assets/img/galerie'" %}
+  {% assign delay = 0 %}
+  {% for file in images %}
+    {% if forloop.first %}
+      <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="{{ delay | append: 's' }}">
+        <div class="row g-0">
+    {% endif %}
 
-
-  {% for col in columns %}
-    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="{{ forloop.index0 | times: 0.2 | append: 's' }}">
-      <div class="row g-0">
-        {% for image in col %}
-          <div class="col-12">
-            <a class="d-block" href="{{ image.path }}" data-lightbox="gallery">
-              <img class="img-fluid" src="{{ image.path }}" alt="Image {{ forloop.index }}">
-            </a>
-          </div>
-        {% endfor %}
-      </div>
+    <div class="col-12">
+      <a class="d-block" href="{{ file.path }}" data-lightbox="gallery">
+        <img class="img-fluid" src="{{ file.path }}" alt="">
+      </a>
     </div>
+
+    {% if forloop.index0 != 0 and forloop.index0 % 2 == 1 %}
+        </div></div>
+        {% assign delay = delay | plus: 0.2 %}
+        {% unless forloop.last %}
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="{{ delay | append: 's' }}">
+            <div class="row g-0">
+        {% endunless %}
+    {% endif %}
   {% endfor %}
-
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="row g-0">
-                  <div class="col-12">
-                      <a class="d-block" href="https://picsum.photos/id/11/400/600" data-lightbox="gallery">
-                          <img class="img-fluid" src="https://picsum.photos/id/11/400/600" alt="">
-                      </a>
-                  </div>
-                  <div class="col-12">
-                      <a class="d-block" href="https://picsum.photos/id/17/600/400" data-lightbox="gallery">
-                          <img class="img-fluid" src="https://picsum.photos/id/17/600/400" alt="">
-                      </a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="row g-0">
-                <div class="col-12">
-                    <a class="d-block" href="https://picsum.photos/id/12/600/400" data-lightbox="gallery">
-                        <img class="img-fluid" src="https://picsum.photos/id/12/600/400" alt="">
-                    </a>
-                </div>
-                  <div class="col-12">
-                      <a class="d-block" href="https://picsum.photos/id/10/400/600" data-lightbox="gallery">
-                          <img class="img-fluid" src="https://picsum.photos/id/10/400/600" alt="">
-                      </a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="row g-0">
-                  <div class="col-12">
-                      <a class="d-block" href="https://picsum.photos/id/16/400/600" data-lightbox="gallery">
-                          <img class="img-fluid" src="https://picsum.photos/id/16/400/600" alt="">
-                      </a>
-                  </div>
-                  <div class="col-12">
-                      <a class="d-block" href="https://picsum.photos/id/13/600/400" data-lightbox="gallery">
-                          <img class="img-fluid" src="https://picsum.photos/id/13/600/400" alt="">
-                      </a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-              <div class="row g-0">
-                <div class="col-12">
-                    <a class="d-block" href="https://picsum.photos/id/14/600/400" data-lightbox="gallery">
-                        <img class="img-fluid" src="https://picsum.photos/id/14/600/400" alt="">
-                    </a>
-                </div>
-                  <div class="col-12">
-                      <a class="d-block" href="https://picsum.photos/id/12/400/600" data-lightbox="gallery">
-                          <img class="img-fluid" src="https://picsum.photos/id/12/400/600" alt="">
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </div>
+  </div></div>
+</div>
   </div>
 </div>
 <!-- Gallery End -->
