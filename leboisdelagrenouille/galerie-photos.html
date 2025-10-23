@@ -3,19 +3,23 @@ layout: default
 title: Galerie Photos du Bois de la Grenouille
 ---
 
-    <!-- Gallery Start -->
+---
+layout: default
+title: Galerie Photos du Bois de la Grenouille
+---
+
+<!-- Gallery Start -->
 <div class="container-xxl py-5">
   <div class="container">
-      <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-          <p class="section-title bg-white text-center text-primary px-3">📸</p>
-          <h1 class="mb-5">La galerie photos du bois de la grenouille !</h1>
-      </div>
-      <div class="row g-0">
+    <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+      <p class="section-title bg-white text-center text-primary px-3">📸</p>
+      <h1 class="mb-5">La galerie photos du bois de la grenouille !</h1>
+    </div>
 
+    <div class="row g-0">
       <div class="gallery-grid">
         {% assign images = site.static_files | where_exp: "f", "f.path contains 'assets/img/galerie'" %}
         {% assign images = images | where_exp: "f", "f.extname == '.jpg' or f.extname == '.png'" %}
-        {% assign delay = 0 %}
         {% for img in images %}
           {% assign mod = forloop.index0 | modulo: 3 %}
           {% if mod == 0 %}
@@ -25,14 +29,13 @@ title: Galerie Photos du Bois de la Grenouille
           {% else %}
             {% assign size = "short" %}
           {% endif %}
-          <a href="{{ img.path }}" data-lightbox="gallery"
-             class="wow fadeInUp {{ size }}">
+          <a href="{{ img.path }}" data-lightbox="gallery" class="wow fadeInUp {{ size }}">
             <img src="{{ img.path }}" alt="">
           </a>
         {% endfor %}
       </div>
     </div>
-</div>
+  </div>
 </div>
 <!-- Gallery End -->
 
