@@ -7,7 +7,7 @@ title: Les jeux en bois du bois de la grenouille
 <div class="container-fluid py-3">
   <div class="colonne_produit">
     <div class="row g-5">
-      {% assign produits = site.posts | where: "categorie", "jeux" %}
+      {% assign produits = site.posts | where: "categorie", "jeux" | sort: "title" %}
       {% for produit in produits %}
         {% assign lightbox_id = "produit-" | append: forloop.index %}
         <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
