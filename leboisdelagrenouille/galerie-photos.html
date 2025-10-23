@@ -18,22 +18,22 @@ title: Galerie Photos du Bois de la Grenouille
 
     <div class="row g-0">
       <div class="gallery-grid">
-        {% assign images = site.static_files | where_exp: "f", "f.path contains 'assets/img/galerie'" %}
-        {% assign images = images | where_exp: "f", "f.extname == '.jpg' or f.extname == '.png'" %}
-        {% for img in images %}
-          {% assign mod = forloop.index0 | modulo: 3 %}
-          {% if mod == 0 %}
-            {% assign size = "tall" %}
-          {% elsif mod == 1 %}
-            {% assign size = "medium" %}
-          {% else %}
-            {% assign size = "short" %}
-          {% endif %}
-          <a href="{{ img.path }}" data-lightbox="gallery" class="wow fadeInUp {{ size }}">
-            <img src="{{ img.path }}" alt="">
-          </a>
-        {% endfor %}
-      </div>
+  {% for img in site.static_files %}
+    {% if img.path contains 'assets/img/galerie' and (img.extname == '.jpg' or img.extname == '.png') %}
+      {% assign mod = forloop.index0 | modulo: 3 %}
+      {% if mod == 0 %}
+        {% assign size = "tall" %}
+      {% elsif mod == 1 %}
+        {% assign size = "medium" %}
+      {% else %}
+        {% assign size = "short" %}
+      {% endif %}
+      <a href="{{ img.path }}" data-lightbox="gallery" class="wow fadeInUp {{ size }}">
+        <img src="{{ img.path }}" alt="">
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
     </div>
   </div>
 </div>
