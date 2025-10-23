@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- Produits - Jeux -->
+<div class="container-fluid py-3">
+  <div class="colonne_produit">
+    <div class="row g-5">
+      {% assign produits = site.posts | where: "categorie", "jeux" %}
+      {% for produit in produits %}
+      {% assign lightbox_id = "produit-" | append: forloop.index %}
+      <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+        <article class="d-flex flex-column justify-content-between">
+           {% assign img = post.content | split: 'src="' | last | split: '"' | first %}
+                {% if img contains '.jpg' or img contains '.png' %}
+            <a class="text-center" href="{{ produit.image }}" data-lightbox="{{ lightbox_id }}" data-title='Image agrandie de "{{ produit.titre }}"'>
+              <img src="{{ img }}" alt="image du produit {{ produit.titre }}">
+            </a>
+                {% endif %}
+
+          {% if produit.sur-titre %}
+          <p class="produit-type">{{ produit.sur-titre }}</p>
+          {% endif %}
+
+          <div class="titre_produit">
+            <h2 class="text-center">{{ produit.titre }}</h2>
+            <span>{{ produit.prix }}</span>
+          </div>
+
+          <div class="produit-content">
+            {% if produit.description %}
+              <p>{{ produit.description }}</p>
+            {% endif %}
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
