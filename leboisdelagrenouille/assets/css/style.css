@@ -230,7 +230,7 @@
     content: "";
     width: calc(100% + 80px);
     height: 2px;
-    top: 5px;
+    top: 0px;
     left: -40px;
     background: var(--primary);
     z-index: -1;
@@ -241,7 +241,7 @@
     content: "";
     width: calc(100% + 120px);
     height: 2px;
-    bottom: 6px;
+    bottom: 0px;
     left: -60px;
     background: var(--primary);
     z-index: -1;
@@ -938,6 +938,10 @@ a.portfolio-link{
 
 .form-select > option:first-child{
     display: none;
+}
+
+#form-sujet select{
+    padding-top: 7px;
 }
 
 /* barre haute newsletter brevo */
