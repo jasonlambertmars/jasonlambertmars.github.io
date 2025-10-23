@@ -17,7 +17,7 @@ prose:
         field:
           label: "Sur-titre du produit"
           element: "text"
-          placeholder: "Sur-titre qui apparait au-dessus du produit"
+          placeholder: "Sur-titre qui apparait au-dessus du produit [facultatif]"
       - name: "titre"
         field:
           label: "Nom du produit"
@@ -25,7 +25,7 @@ prose:
           placeholder: "Nom du produit"
       - name: "prix"
         field:
-          label: "Text"
+          label: "Prix"
           element: "text"
           placeholder: "Entrer le prix"
       - name: "category"
@@ -38,17 +38,12 @@ prose:
             - Grands jeux en bois
             - Panneaux sculptés
             - Projet personnalisé
-      - name: "excerpt"
-        field:
-          label: "Text"
-          element: "text"
-          placeholder: "Entrer un texte résumé (1 phrase ou 2)"
       - name: "description"
         field:
           label: "Text"
           element: "textarea"
-          placeholder: "Entrer la descrition complete"
+          placeholder: "Entrer la descrition du produit"
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "produit"
