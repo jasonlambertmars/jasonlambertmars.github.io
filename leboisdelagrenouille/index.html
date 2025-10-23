@@ -49,12 +49,13 @@
 
 
     <!-- Navbar Start -->
-    <!-- Barre newsletter-->
+     {% include menu.html %}
+    <!-- Barre newsletter
 <div id="barre-newsletter">
     <p>Pour rester au courant des prochains stages et activités, rejoignez la NEWSLETTER Petite Nature <a href="https://jasonlambertmars.github.io/leboisdelagrenouille/#abonnement-newsletter">en cliquant sur ce lien.</a></p>
 </div>
 
-<!-- Navbar -->
+<!-- Navbar 
 <nav class="navbar navbar-expand-lg bg-white navbar-light px-4 px-lg-5">
   <a href="https://jasonlambertmars.github.io/leboisdelagrenouille/" class="navbar-brand d-flex align-items-center">
     <img class="img-fluid" src="assets/img/accueil/leboisdelagrenouille-logo.png" alt="">
@@ -85,7 +86,7 @@
                 <a href="https://jasonlambertmars.github.io/leboisdelagrenouille/le-stage#itinerance" class="dropdown-item">Itinérance</a>
                 <a href="https://jasonlambertmars.github.io/leboisdelagrenouille/le-stage#ecologie-sensible" class="dropdown-item">Écologie sensible</a>
             </div>
-          </div>-->
+          </div>
           <a href="https://jasonlambertmars.github.io/leboisdelagrenouille/galerie-photos" class="nav-item nav-link">Galerie photos</a>
           <div class="nav-item dropdown">
               <a href="https://jasonlambertmars.github.io/leboisdelagrenouille/a-propos" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">À propos</a>
@@ -101,7 +102,7 @@
       </div>
   </div>
 </nav>
-<!-- Navbar End -->
+<!-- Navbar End 
 
     <!-- Navbar End -->
 
@@ -301,12 +302,13 @@
         </div>
         <div class="col-md-6">
             <div class="form-floating">
-                <select name="objet" id="objet"  class="form-select" required="">
+                <select name="objet" id="objet"  class="form-select" required>
                     <option value="" selected="" disabled="">Selectionnez le sujet du mail</option>
                     <option value="Commande">Commande</option>
-                    <option value="projet personnalisé">Projet personnalisé</option>
+                    <option value="Projet personnalisé">Projet personnalisé</option>
+                    <option value="Autre demande">Autre demande</option>
                 </select>
-            <label for="objet">Sujet du mail</label>
+            <label for="objet"> </label>
             </div>
         </div>
 
