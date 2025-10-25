@@ -20,10 +20,10 @@ title: Les jeux en bois du bois de la grenouille
             {% assign img = produit.content | split: 'src="' | last | split: '"' | first %}
             {% if img contains '.jpg' or img contains '.png' %}
               <a class="text-center"
-                href="assets/{{ img }}"
+                href="{{ img }}"
                 data-lightbox="{{ lightbox_id }}"
                 data-title='Image agrandie de "{{ produit.title }}"'>
-                <img src="assets/{{ img }}" alt="Image du produit {{ produit.title }}">
+                <img src="{{ img }}" alt="Image du produit {{ produit.title }}">
               </a>
             {% endif %}
 
