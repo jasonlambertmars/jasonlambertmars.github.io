@@ -38,7 +38,7 @@ title: Les jeux en bois du bois de la grenouille
 
             <div class="produit-content">
               {% if produit.description %}
-                <p>{{ produit.description }}</p>
+                <p>{{ produit.description | markdownify }}</p>
               {% endif %}
             </div>
           </article>
