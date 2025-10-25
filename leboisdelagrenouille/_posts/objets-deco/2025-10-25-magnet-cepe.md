@@ -6,4 +6,4 @@ description: |
   Magnets dotés d'un aimant puissant avec chapeau en chêne ou en noyer et pied en peuplier.
 categorie: "objets-deco"
 ---
-![Magnet cèpe]({{site.baseurl}}/assets/img/posts/Magnets-cepes.jpg)
+![Magnet cèpe]({{site.baseurl}}img/posts/Magnets-cepes.jpg)

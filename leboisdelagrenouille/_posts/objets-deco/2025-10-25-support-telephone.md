@@ -7,4 +7,4 @@ description: |
   Très pratique pour mettre votre téléphone à charger ou pour passer des appels en visio tout en ayant les mains libres !
 categorie: "objets-deco"
 ---
-![Support à téléphone]({{site.baseurl}}/assets/img/posts/Supports-tel.jpg)
+![Support à téléphone]({{site.baseurl}}img/posts/Supports-tel.jpg)
