@@ -1047,7 +1047,8 @@ Bois de la grenouille
     margin-bottom: 4rem;
 }
 
-.titre-page-interne span{
+.titre-page-interne span,
+h1 span{
     color: #FC1F00 !important;
 }
 
