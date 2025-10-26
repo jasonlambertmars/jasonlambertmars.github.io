@@ -858,6 +858,11 @@ h1 span{
 
 /* gallerie photo */
 
+#fleche-bas{
+    position: absolute;
+    right: 0;
+}
+
 .gallery-grid {
   column-count: 4;          /* nombre de colonnes, adapte selon ton design */
   column-gap: 6px;          /* espace entre les colonnes */
