@@ -1132,7 +1132,7 @@ Bois de la grenouille
 #texte-projet-perso h2{
     font-size: 1.75rem;
     text-align: center;
-    color: #404A3D;
+    color: #404A3D !important;
 }
 
 
