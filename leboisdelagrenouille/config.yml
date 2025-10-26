@@ -6,6 +6,10 @@ title: Le bois de la grenouille
 email: leboisdelagrenouille@
 description: "Le site du bois de la grenouille"
 
+#build-settings
+pugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 prose:
   rooturl: ''
