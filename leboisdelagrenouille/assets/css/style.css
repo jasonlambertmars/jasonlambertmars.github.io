@@ -1127,6 +1127,14 @@ Bois de la grenouille
     align-items: center;
 }
 
+/* Projet perso */
+
+#texte-projet-perso h2{
+    font-size: 1.75rem;
+    text-align: center;
+    color: #404A3D;
+}
+
 
 /* gallerie photo */
 
