@@ -5,9 +5,63 @@ title: Les jeux en bois du bois de la grenouille
 
 <!-- Produits - Jeux -->
 <div class="container-fluid py-3">
+  <div class="titre-page-interne">
+    <h2>Les jeux en bois</h2>
+    <p>Retrouvez ci-dessous toutes mes créations de jeux en bois !
+      <br>Pour passer commande, vous pouvez m'envoyer un message en cliquant <a href="/accueil/#me-contacter">ici</a>
+    </p>
+  </div>
   <div class="colonne_produit">
     <div class="row g-5">
       {% assign produits = site.posts | where: "categorie", "jeux" | sort: "title" %}
+      {% for produit in produits %}
+        {% assign lightbox_id = "produit-" | append: forloop.index %}
+        <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+          <article class="d-flex flex-column justify-content-between">
+
+            {%- comment -%}
+              ✅ On essaie de trouver une image dans le contenu du post
+              (ex : une balise <img src="...">)
+            {%- endcomment -%}
+            {% assign img = produit.content | split: 'src="' | last | split: '"' | first %}
+            {% if img contains '.jpg' or img contains '.png' %}
+              <a class="text-center"
+                href="assets/{{ img }}"
+                data-lightbox="{{ lightbox_id }}"
+                data-title='Image agrandie de "{{ produit.title }}"'>
+                <img src="assets/{{ img }}" alt="Image du produit {{ produit.title }}">
+              </a>
+            {% endif %}
+
+            {% if produit.sur-titre %}
+              <p class="produit-type">{{ produit.sur-titre }}</p>
+            {% endif %}
+
+            <div class="titre_produit">
+              <h2 class="text-center">{{ produit.title }}</h2>
+              <span>{{ produit.prix }}</span>
+            </div>
+
+            <div class="produit-content">
+              {% if produit.description %}
+                <p>{{ produit.description | markdownify }}</p>
+              {% endif %}
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="titre-page-interne">
+    <h2>Les jeux en bois</h2>
+    <p>Retrouvez ci-dessous toutes mes créations de jeux en bois !
+      <br>Pour passer commande, vous pouvez m'envoyer un message en cliquant <a href="/accueil/#me-contacter">ici</a>
+    </p>
+  </div>
+  <div class="colonne_produit">
+    <div class="row g-5">
+      {% assign produits = site.posts | where: "categorie", "grands-jeux" | sort: "title" %}
       {% for produit in produits %}
         {% assign lightbox_id = "produit-" | append: forloop.index %}
         <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
