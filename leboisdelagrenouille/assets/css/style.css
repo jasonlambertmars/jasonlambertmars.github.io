@@ -1037,6 +1037,12 @@ a.portfolio-link{
 Bois de la grenouille
 *****/
 
+/**** titre general bandeau ***/
+.titre-page-interne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /*** accueil **/
 
