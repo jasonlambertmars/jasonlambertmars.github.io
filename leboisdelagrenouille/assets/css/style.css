@@ -1042,6 +1042,7 @@ Bois de la grenouille
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /*** accueil **/
