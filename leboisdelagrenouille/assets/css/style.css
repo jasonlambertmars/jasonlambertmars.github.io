@@ -1045,6 +1045,14 @@ Bois de la grenouille
     align-items: center;
 }
 
+#grands-jeux-en-bois{
+    border-top: 3px solid #3C1D17 !important;
+    border-bottom: 3px solid #3C1D17 !important;
+    border-left: 3rem solid #3C1D17 !important;
+    border-right: 3rem solid #3C1D17 !important;
+    padding: 20px 0;
+}
+
 /*** accueil **/
 
 #section-cat-accueil .product-item a{
