@@ -1047,6 +1047,11 @@ Bois de la grenouille
     margin-bottom: 4rem;
 }
 
+.titre-page-interne h1{
+    color: #3C1D17 !important;
+    font-size: 2.5rem;
+}
+
 #grands-jeux-en-bois{
     border-top: 3px solid #3C1D17 !important;
     border-bottom: 3px solid #3C1D17 !important;
