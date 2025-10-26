@@ -1096,6 +1096,7 @@ Bois de la grenouille
 .colonne_produit .titre_produit{
     display: flex;
     justify-content: space-between;
+    min-height: 70px;
 }
 
 .colonne_produit .titre_produit h2{
@@ -1109,6 +1110,7 @@ Bois de la grenouille
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'MuseoTitre';
+    padding-left: 1rem;
 }
 .colonne_produit .produit-content{
     font-size: .95rem;
