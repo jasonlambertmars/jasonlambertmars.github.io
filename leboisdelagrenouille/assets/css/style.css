@@ -1116,6 +1116,12 @@ Bois de la grenouille
     font-size: .95rem;
 }
 
+/* A propos */
+#texte-qui-suis-je{
+    display: flex;
+    align-items: center;
+}
+
 
 /* gallerie photo */
 
