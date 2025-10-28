@@ -764,10 +764,7 @@ h1 span{
 }
 
 #grands-jeux-en-bois{
-    border-top: 3px solid #3C1D17 !important;
-    border-bottom: 3px solid #3C1D17 !important;
-    border-left: 3rem solid #3C1D17 !important;
-    border-right: 3rem solid #3C1D17 !important;
+    background-color: lightgrey;
     padding: 20px 0;
 }
 
